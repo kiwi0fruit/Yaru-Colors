@@ -19,7 +19,7 @@
  */
 /* Global Values */
 stage {
-  font-size: 11pt;
+  font-size: 12.5pt;
   color: #F7F7F7; }
 
 /* Common Stylings */
@@ -423,7 +423,7 @@ StScrollBar {
     icon-shadow: none;
     box-shadow: none; }
   .datemenu-today-button .day-label {
-    font-size: 12pt;
+    font-size: 12.5pt;
     font-weight: bold; }
   .datemenu-today-button .date-label {
     font-size: 18pt;
@@ -478,7 +478,7 @@ StScrollBar {
     .calendar .pager-button:active {
       background-color: rgba(247, 247, 247, 0.2); }
   .calendar .calendar-day-base {
-    font-size: 8pt;
+    font-size: 11.5pt;
     text-align: center;
     width: 32px;
     height: 32px;
@@ -495,7 +495,7 @@ StScrollBar {
     .calendar .calendar-day-base.calendar-day-heading {
       color: white;
       margin-top: 1em;
-      font-size: 7pt; }
+      font-size: 11.5pt; }
   .calendar .calendar-day {
     border-width: 0; }
   .calendar .calendar-day-top {
@@ -526,7 +526,7 @@ StScrollBar {
   .calendar .calendar-other-month-day {
     color: rgba(247, 247, 247, 0.5); }
   .calendar .calendar-week-number {
-    font-size: 7pt;
+    font-size: 11.5pt;
     font-weight: bold;
     height: 1.8em;
     width: 2.3em;
@@ -578,7 +578,7 @@ StScrollBar {
   .events-button .event-time {
     color: #c4c4c4;
     font-feature-settings: "tnum";
-    font-size: 10pt; }
+    font-size: 12.5pt; }
 
 /* World clocks */
 .world-clocks-button {
@@ -620,13 +620,13 @@ StScrollBar {
     font-weight: bold; }
   .world-clocks-button .world-clocks-city {
     color: #F7F7F7;
-    font-size: 11pt;
+    font-size: 12.5pt;
     font-weight: normal; }
   .world-clocks-button .world-clocks-time {
     font-weight: bold;
     color: #F7F7F7;
     font-feature-settings: "tnum";
-    font-size: 11pt; }
+    font-size: 12.5pt; }
     .world-clocks-button .world-clocks-time:ltr {
       text-align: right; }
     .world-clocks-button .world-clocks-time:rtl {
@@ -634,7 +634,7 @@ StScrollBar {
   .world-clocks-button .world-clocks-timezone {
     color: #c4c4c4;
     font-feature-settings: "tnum";
-    font-size: 10pt; }
+    font-size: 12.5pt; }
 
 /* Weather */
 .weather-button {
@@ -677,14 +677,14 @@ StScrollBar {
     font-weight: bold; }
     .weather-button .weather-header.location {
       font-weight: normal;
-      font-size: 10pt; }
+      font-size: 12.5pt; }
   .weather-button .weather-grid {
     spacing-rows: 6px;
     spacing-columns: 12px; }
   .weather-button .weather-forecast-time {
     color: #ababab;
     font-feature-settings: "tnum";
-    font-size: 9pt;
+    font-size: 11.5pt;
     font-weight: normal;
     padding-top: 0.2em;
     padding-bottom: 0.4em; }
@@ -762,7 +762,7 @@ StScrollBar {
     padding: 0 8px; }
     .message .message-secondary-bin > .event-time {
       color: rgba(247, 247, 247, 0.5);
-      font-size: 9pt;
+      font-size: 12.5pt;
       /* HACK: the label should be baseline-aligned with a 1em label, fake this with some bottom padding */
       padding-bottom: 0.13em; }
       .message .message-secondary-bin > .event-time:ltr {
@@ -853,7 +853,7 @@ StScrollBar {
     spacing: 0; }
 
 .summary-source-counter {
-  font-size: 10pt;
+  font-size: 12.5pt;
   font-weight: bold;
   height: 1.6em;
   width: 1.6em;
@@ -892,7 +892,7 @@ StScrollBar {
 
 .chat-meta-message {
   padding-left: 4px;
-  font-size: 9pt;
+  font-size: 12.5pt;
   font-weight: bold;
   color: white; }
   .chat-meta-message:rtl {
@@ -905,7 +905,7 @@ StScrollBar {
 
 /* Modal Dialogs */
 .headline {
-  font-size: 12pt; }
+  font-size: 12.5pt; }
 
 .modal-dialog {
   border-radius: 6px; }
@@ -929,7 +929,7 @@ StScrollBar {
     font-size: 18pt;
     font-weight: 800; }
     .message-dialog-content .message-dialog-title.lightweight {
-      font-size: 13pt;
+      font-size: 12.5pt;
       font-weight: 800; }
   .message-dialog-content .message-dialog-description {
     text-align: center; }
@@ -950,7 +950,7 @@ StScrollBar {
         font-weight: bold; }
       .dialog-list .dialog-list-box .dialog-list-item .dialog-list-item-description {
         color: #eaeaea;
-        font-size: 10pt; }
+        font-size: 12.5pt; }
 
 /* Run Dialog */
 .run-dialog .modal-dialog-content-box {
@@ -961,7 +961,7 @@ StScrollBar {
   width: 20em; }
 
 .run-dialog .run-dialog-description {
-  font-size: 10pt;
+  font-size: 12.5pt;
   text-align: center;
   color: #c4c4c4; }
 
@@ -991,7 +991,7 @@ StScrollBar {
 .prompt-dialog-info-label,
 .prompt-dialog-null-label {
   text-align: center;
-  font-size: 10pt; }
+  font-size: 12.5pt; }
 
 .prompt-dialog-error-label {
   color: #f99b11; }
@@ -1062,7 +1062,7 @@ StScrollBar {
   background-color: #202020; }
 
 .nm-dialog-item {
-  font-size: 11pt;
+  font-size: 12.5pt;
   border-bottom: 1px solid #464646;
   padding: 12px;
   spacing: 0px; }
@@ -1290,7 +1290,7 @@ StScrollBar {
   border-radius: 5px;
   padding: 6px 12px;
   font-weight: bold;
-  font-size: 12pt; }
+  font-size: 12.5pt; }
 
 .window-close {
   background-color: #929292;
@@ -1503,7 +1503,7 @@ StScrollBar {
 
 /* Dash */
 #dash {
-  font-size: 9pt;
+  font-size: 12.5pt;
   padding: 5px 0;
   border-radius: 0 9px 9px 0;
   border-left-width: 0; }
@@ -1632,7 +1632,7 @@ StScrollBar {
 .caps-lock-warning-label {
   text-align: center;
   padding-bottom: 8px;
-  font-size: 10pt;
+  font-size: 12.5pt;
   color: #f99b11; }
 
 /* Tiled window previews */
@@ -1854,7 +1854,7 @@ StScrollBar {
       color: #999999; }
 
 .lg-completions-text {
-  font-size: .9em;
+  font-size: 1em;
   font-style: italic;
   color: #eeeeec; }
 
@@ -2011,7 +2011,7 @@ StScrollBar {
     color: #eeeeec; }
 
 .login-dialog-not-listed-label {
-  font-size: 10pt;
+  font-size: 12.5pt;
   font-weight: bold;
   color: #a6a69b;
   padding-top: 1em; }
@@ -2047,7 +2047,7 @@ StScrollBar {
   color: #eeeeec; }
 
 .user-widget.horizontal .user-widget-label {
-  font-size: 13pt;
+  font-size: 12.5pt;
   font-weight: bold;
   padding-left: 15px; }
   .user-widget.horizontal .user-widget-label:ltr {
@@ -2074,7 +2074,7 @@ StScrollBar {
 
 .login-dialog-prompt-label {
   color: #bebeb6;
-  font-size: 12pt;
+  font-size: 12.5pt;
   padding-top: 1em; }
 
 /* Screen Shield */
